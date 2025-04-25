@@ -21,7 +21,10 @@ st.markdown(
 # Título en rojo
 st.markdown("<h1 style='color: red;'>FNSM OCR</h1>", unsafe_allow_html=True)
 
-st.markdown("<h3 style='color: blue;'>A veces, es dificil leer las fotos para encontrar pistas. Este es un piloto de reconocimiento óptico de caracteres que nuesto Spidey developer (Ganke) diseñó.</h3>", unsafe_allow_html=True)
+st.write('A veces, es dificil leer las fotos para encontrar pistas. '
+         ' Este es un piloto de reconocimiento óptico de caracteres que '
+         ' nuesto Spidey developer (Ganke) diseñó. '
+        )
 
 # Subheader de la cámara en azul
 st.markdown("<h3 style='color: blue;'>Toma una Foto</h3>", unsafe_allow_html=True)
