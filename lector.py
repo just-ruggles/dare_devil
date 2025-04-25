@@ -27,7 +27,7 @@ st.write('A veces, es dificil leer las fotos para encontrar pistas. '
         )
 
 # Subheader de la cámara en azul
-st.markdown("<h3 style='color: blue;'>Toma una Foto</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='color: blue;'>Pongámoslo a prueba: toma una foto ;)</h3>", unsafe_allow_html=True)
 img_file_buffer = st.camera_input("")
 
 # Sidebar con header en azul
